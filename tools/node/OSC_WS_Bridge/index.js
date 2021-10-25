@@ -6,8 +6,8 @@ const wss = new WebSocket.Server({ port: 8080 });
 const wsConnections = [];
 
 const broadcast = (message) => {
+  console.log(message);
   wsConnections.forEach((connection) => {
-    // console.log(message);
     connection.send(message);
   });
 };
