@@ -74,3 +74,17 @@ Amongst others, Wekinator does classification, Regression, and dynamic time warp
 * dynamic time warping - [mouse gesture recognition](https://www.youtube.com/watch?v=J4viXTThDTE)
 * [regression](https://www.youtube.com/watch?v=4lxGh0jQWBo)
 * more videos can be found on Wekinator's [youtube channel](https://www.youtube.com/channel/UCot7vfr_9hTy2qp3ksTxGmg/videos)
+
+## 2. Runway
+[runwayml](https://runwayml.com/) is a commercial tool which makes it easy to use machine learning algorithms, without spending ages setting up the environment. It comes with a big selection of pretrained models, e.g. yolo, posenet or stylegan. Runway offers different interfaces - OSC, http and socket.io. Wekinator communicates in a similar way.
+
+Runway will give you 10$ GPU credit on registration, that should be enough for this course, but please have in mind that every operation on their GPU will cost. Some models can be run locally or even in docker containers, those are free of charge.
+
+### Installation
+* On osx it can be installed via brew: `brew install --cask runway`
+* On linux distributions it can be downloaded [here](https://support.runwayml.com/en/articles/3116268-runway-on-linux)
+* There is also a [web version](https://app.runwayml.com/) available
+
+### Tutorials
+* [youtube channel](https://www.youtube.com/c/RunwayML/videos)
+* [Coding Train](https://www.youtube.com/watch?v=ARnf4ilr9Hc)
